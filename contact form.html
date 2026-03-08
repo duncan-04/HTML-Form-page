@@ -1,1 +1,42 @@
+<form id= "jobForm" onsubmit="return validateForm()">
+   <fieldset>
+      <legend>Personal Information</legend>
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname"><br>
 
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="telephone">Telephone:</label>
+      <input type="text" id="telephone" name="address"><br>
+   </fieldset>
+  
+   </fieldset>
+       <legend>Position Information</legend>
+       <label for="jobtitle">Desired Job Title:</label>label>
+       <select id="jobtitle" name="jobtitle">
+          <option value="account-executive">Account Executive</option>
+          <option value="sales-manager">Sales Manager</option>
+          <option value="vp-sales">VP Sales</option>
+       </select><br>
+
+       <p>Employment Type:</p>
+       <input type="radio" name="employment" value="part-time-contract"> Part-time Contract<br>
+       <input type="radio" name="employment" value="full-time-permanent"> Full-time Permanent<br>
+  </fieldset>
+
+  <fieldset>
+     <legend>Areas of Interest</legend>
+     <input type="checkbox" name="interest" value="account-executive"> Account Executive<br>
+     <input type="checkbox" name="interest" value="business-development"> Business Development<br>
+     <input type="checkbox" name="interest" value="inside-sales"> Inside Sales<br>
+  </fieldset>
+
+  <fieldset>
+     <legend>Additional Message</legend>
+     <textarea id="message" name="message" rows="4" cols="40"></textarea>
+  </fieldset>
+
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
