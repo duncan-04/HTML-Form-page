@@ -1,6 +1,3 @@
-<head>
-<title>My Form</title>
-
 <style>
 
 /* Page background */
@@ -19,7 +16,7 @@ form{
 fieldset{
      border:2px solid #007BFF;
      padding:20px;
-     background-color:white;
+     background-color:blue;
      border-radius:10px;
 }
 
@@ -72,4 +69,4 @@ input[type="reset"]:hover{
       
 </style>
 
-</head>
+
